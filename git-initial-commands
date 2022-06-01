@@ -1,0 +1,9 @@
+git config --global user.name "sanjeeth G"
+git config --global user.email sanjeethsingh.g@gmail.com
+
+git config --list --show-origin
+git config --list
+
+editor:
+$ git config --global core.editor emacs
+$ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
