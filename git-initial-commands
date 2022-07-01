@@ -4,6 +4,16 @@ git config --global user.email sanjeethsingh.g@gmail.com
 git config --list --show-origin
 git config --list
 
+==============================================================================================================
 editor:
+________
+===>for vim
+git config --global core.editor "vim"
+===>for vsc
+
+===>for notepad ++
+
+
 $ git config --global core.editor emacs
 $ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+==============================================================================================================
