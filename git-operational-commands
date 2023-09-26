@@ -4,16 +4,34 @@ git clone
 git add
 git commit
 git diff
+      diff --git a/test.txt b/test.txt
+
 git reset
 git status
 git rm
 git log
+      git log --oneline
+
 git show
 git tag
 git branch
+      git branch -d feature/bobname    // delete a branch
+      git branch feature/bobname      // create a branch
 git checkout
+      git checkout feature/bobname
+      git checkout -b feature/bob1name
+
+
+
 git merge
+      //checkout to desired branch
+      git checkout master
+      git merge feature/bobname
 git remote
 git push
 git pull
 git stash
+
+
+git log
+git log --oneline
